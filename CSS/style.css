@@ -1,0 +1,77 @@
+.board-container {
+  height: 370px;
+  width: 370px;
+}
+
+.board-container .row {
+  height: 100%;
+}
+
+.board-square {
+  border: 2px solid red;
+  height: 25%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.face-container {
+  background-color: blue;
+  height: 200%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  transition: 400ms;
+}
+
+.faceup, .facedown {
+  height: 50%;
+}
+
+.facedown {
+  background-color: lightGray;
+}
+
+.faceup {
+  background-color: coral;
+}
+.flipped .face-container {
+  top: -100%;
+}
+
+
+.color-0 {
+  background-color: aqua;
+}
+
+.color-1 {
+  background-color: bisque;
+}
+
+.color-2 {
+  background-color: blue;
+}
+
+.color-3 {
+  background-color: blueviolet;
+}
+
+.color-4 {
+  background-color: brown;
+}
+
+.color-5 {
+  background-color: cadetblue;
+}
+
+.color-6 {
+  background-color: chartreuse;
+}
+
+.color-7 {
+  background-color: coral;
+}
+
+#reset-button {
+  margin: 15px auto 0;
+  width: 370px;
+}
